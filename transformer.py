@@ -3,7 +3,7 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 import math
-
+  
 
 class TokenEmbedding(nn.Embedding):
     def __init__(self, vocab_size, d_model):
